@@ -1,0 +1,65 @@
+@import 'libs';
+
+h1{
+  @include adaptiv-value("font-size", 64, 40, 1);
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.h1{
+  @include adaptiv-value("font-size", 64, 40, 1);
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+h2{
+  @include adaptiv-value("font-size", 40, 30, 1);
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.h2{
+  @include adaptiv-value("font-size", 40, 30, 1);
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+}
+h3{
+  @include adaptiv-value("font-size", 24, 24, 1);
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.h3{
+  @include adaptiv-value("font-size", 24, 24, 1);
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+
+.fs-20{
+  @include adaptiv-value("font-size", 20, 18, 1);
+}
+.fs-18{
+  font-size: 18px;
+}
+.fs-16{
+  @include adaptiv-value("font-size", 16, 14, 1);
+}
+.fs-15{
+  font-size: 15px;
+}
+
+.fw-700{
+  font-weight: 700;
+}
+.fw-600{
+  font-weight: 600;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-400{
+  font-weight: 400;
+}

@@ -1,0 +1,32 @@
+@media (min-width: 991px){
+  .hover:hover{
+    color: #F88008 !important;
+  }
+  .wa-link:hover{
+    span{
+      color: #F88008;
+    }
+  }
+  .slider-btn:hover{
+    background-color: #F88008;
+  }
+  .slider-btn:hover::after{
+    border-color: #fff;
+  }
+  .btn--orange:hover{
+    box-shadow: 0px 5px 20px 10px rgba(248, 128, 8, 0.2);
+  }
+  .phone:hover{
+    svg{
+      stroke: #F88008 !important;
+    }
+    span{
+      color: #F88008;
+    }
+  }
+  .my-link:hover{
+    .link-telegram__icon{
+      transform: translate(100%, -100%);
+    }
+  }
+} 

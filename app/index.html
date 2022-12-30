@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ТехСтрой</title>
+  <meta name="keywords" content="Спецтехника, кран, экскаватор, буроям" />
+
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:site_name" content="ТехСтрой" />
+  <meta property="og:description" content="Аренда спецтехники в Барнауле. Снос зданий. Вывоз снега. Вывоз мусора." />
+  <meta property="og:url" content="https://techstroy.ru/" />
+  <meta property="og:title" content="ТехСтрой" />
+  <meta property="og:image" content="/images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Commissioner:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- <link rel="stylesheet" href="css/animate.css"> -->
+  <link rel="stylesheet" href="css/style.min.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/accordion.js"></script>
+  <script src="js/wow.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container animate__animated animate__fadeInDown">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="Логотип">
+        </a>
+        <nav class="nav header__nav">
+          <a href="#services" class="header__nav-link hover">Услуги</a>
+          <a href="#vehicles" class="header__nav-link hover">Техника</a>
+          <a href="#benefits" class="header__nav-link hover">Преимущества</a>
+          <a href="#about" class="header__nav-link hover">О нас</a>
+          <a href="#contacts" class="header__nav-link hover">Контакты</a>
+        </nav>
+        <div class="header__contacts">
+          <a href="tel:+79619778975"
+            class="phone d-flex align-items-center justify-content-end header__phone mb-sm-1 me-3 me-sm-0">
+            <svg class="me-2">
+              <use href="images/sprites.svg#phone"></use>
+            </svg>
+            <span class="fw-600 hover d-none d-sm-block">+7 (961) 977-89-75</span>
+          </a>
+          <a href="https://wa.me/+79619778975" target="_blank" class="fw-600 wa-link justify-content-end">
+            <img class="me-2" src="images/whatsapp.svg" alt="">
+            <span class="d-none d-sm-block">Написать в WhatsApp</span>
+          </a>
+        </div>
+        <div class="menu-btn js-open-menu d-lg-none noSelect">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="fade-area"></div>
+  <div class="menu">
+    <a href="#" class="logo">
+      <img src="images/logo.png" alt="Логотип">
+    </a>
+    <div class="close-btn menu__close-btn js-close-menu noSelect"></div>
+    <div class="container">
+      <nav class="nav menu__nav mb-4">
+        <a href="#services" class="menu__nav-link js-menu-link noSelect color-black">Услуги</a>
+        <a href="#vehicles" class="menu__nav-link js-menu-link noSelect color-black">Техника</a>
+        <a href="#benefits" class="menu__nav-link js-menu-link noSelect color-black">Преимущества</a>
+        <a href="#about" class="menu__nav-link js-menu-link noSelect color-black">О нас</a>
+        <a href="#contacts" class="menu__nav-link js-menu-link noSelect color-black">Контакты</a>
+      </nav>
+      <a href="tel:+79619778975" class="menu__contact-link phone d-flex align-items-center mb-3 me-3 me-sm-0">
+        <svg class="me-2">
+          <use href="images/sprites.svg#phone"></use>
+        </svg>
+        <span class="fw-600 color-black">+7 (961) 977-89-75</span>
+      </a>
+      <a href="https://wa.me/+79619778975" target="_blank" class="menu__contact-link fw-600 wa-link">
+        <img class="me-2" src="images/whatsapp.svg" alt="">
+        <span class="color-black">Написать в WhatsApp</span>
+      </a>
+    </div>
+  </div>
+
+  <main class="main">
+
+    <div class="hero"
+      style="background-image: linear-gradient(0deg, rgba(33, 33, 33, 0.6), rgba(33, 33, 33, 0.3)), linear-gradient(180.86deg, rgba(33, 33, 33, 0.62) 0.74%, rgba(33, 33, 33, 0) 33.58%, rgba(0, 0, 0, 0) 33.58%), linear-gradient(180deg, rgba(33, 33, 33, 0.14) 68.23%, rgba(33, 33, 33, 0.99) 98.44%), url(images/hero.jpg);">
+      <div class="container animate__animated animate__fadeInLeft">
+        <h1 class="h1 col-lg-4 mb-4 mb-sm-5 color-white">
+          <span class="d-block color-orange">Спецтехника</span>
+          для любых задач
+        </h1>
+        <div class="fs-20 col-lg-6 mb-4 mb-sm-5">Современная техника, индивидуальный подход к каждому заказчику и
+          высокий профессионализм помогли нам заслужить репутацию надежной компании, которая работает на результат.
+        </div>
+        <a href="https://wa.me/+79619778975" class="btn btn--lg btn--orange">Заказать технику</a>
+      </div>
+    </div>
+
+    <section class="section section-services" id="services">
+      <div class="container">
+        <h2 class="h2 color-orange mb-4 mb-sm-5 wow animate__animated animate__fadeInUp">Наши услуги</h2>
+        <div class="tab wow animate__fadeIn animate__animated animate__delay-06s">
+          <div class="tab__titles d-flex align-items-center mb-4 mb-sm-5">
+            <div class="tab__name js-open-tab noSelect active" id="tab-1">
+              <span class="h3 color-white hover">Вывоз строительного мусора</span>
+            </div>
+            <div class="tab__name js-open-tab noSelect" id="tab-2">
+              <span class="h3 color-white hover">Вывоз снега</span>
+            </div>
+            <div class="tab__name js-open-tab noSelect" id="tab-3">
+              <span class="h3 color-white hover">Снос зданий</span>
+            </div>
+          </div>
+          <div class="row tab__content active" data-id="tab-1" itemscope itemtype="http://schema.org/Product">
+            <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+              <h3 class="d-none" itemprop="name">Вывоз строительного мусора</h3>
+              <p class="mb-lg-4" itemprop="description">
+                При работе на объекте всегда стоит вопрос вывоза строительного мусора. Мы учитываем все правила и
+                требования по правильной утилизации.
+              </p>
+              <a href="https://wa.me/+79619778975" class="btn btn--orange btn--md d-none d-lg-inline-block">Заказать
+                услугу</a>
+            </div>
+            <div class="col-12 col-lg-7">
+              <img class="tab__img mb-3 mb-lg-0" class="r-5" src="images/service-1.jpg" alt="">
+              <a href="https://wa.me/+79619778975" class="btn btn--orange btn--md d-lg-none">Заказать услугу</a>
+            </div>
+          </div>
+          <div class="row tab__content" data-id="tab-2" itemscope itemtype="http://schema.org/Product">
+            <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+              <h3 class="d-none" itemprop="name">Вывоз снега</h3>
+              <p class="mb-lg-4" itemprop="description">
+                При работе на объекте всегда стоит вопрос вывоза строительного мусора. Мы учитываем все правила и
+                требования по правильной утилизации.
+              </p>
+              <a href="https://wa.me/+79619778975" class="btn btn--orange btn--md d-none d-lg-inline-block">Заказать
+                услугу</a>
+            </div>
+            <div class="col-12 col-lg-7">
+              <img class="tab__img mb-3 mb-lg-0" class="r-5" src="images/service-2.jpg" alt="">
+              <a href="https://wa.me/+79619778975" class="btn btn--orange btn--md d-lg-none">Заказать услугу</a>
+            </div>
+          </div>
+          <div class="row tab__content" data-id="tab-3" itemscope itemtype="http://schema.org/Product">
+            <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+              <h3 class="d-none" itemprop="name">Снос зданий</h3>
+              <p class="mb-lg-4" itemprop="description">
+                При работе на объекте всегда стоит вопрос вывоза строительного мусора. Мы учитываем все правила и
+                требования по правильной утилизации.
+              </p>
+              <a href="https://wa.me/+79619778975" class="btn btn--orange btn--md d-none d-lg-inline-block">Заказать
+                услугу</a>
+            </div>
+            <div class="col-12 col-lg-7">
+              <img class="tab__img mb-3 mb-lg-0" class="r-5" src="images/service-3.jpg" alt="">
+              <a href="https://wa.me/+79619778975" class="btn btn--orange btn--md d-lg-none">Заказать услугу</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section vehicles" id="vehicles"
+      style="background-image: linear-gradient(180deg, rgba(29, 29, 29, 0.9) 0%, rgba(29, 29, 29, 0.9) 12.74%, rgba(29, 29, 29, 0) 49.48%, rgba(29, 29, 29, 0.9) 85.04%, rgba(29, 29, 29, 0.9) 100%), url(images/asphalt-bg-1.jpg);">
+      <div class="container">
+        <h2 class="h2 color-orange mb-4 mb-sm-5 wow animate__animated animate__fadeInUp">Каталог техники</h2>
+        <div class="slider-three swiper wow animate__animated animate__fadeIn animate__delay-06s">
+          <div class="d-sm-flex justify-content-between align-items-end mb-4 mb-sm-5">
+            <div class="col-lg-5 me-4 mb-3 mb-sm-0">
+              <p>Большая база спецтехники для любых видов строительных и земельных работ:</p>
+            </div>
+            <div class="slider-nav d-flex justify-content-end">
+              <div class="slider-btn slider-three__prev me-2 me-sm-3 noSelect"></div>
+              <div class="slider-btn slider-three__next noSelect"></div>
+            </div>
+          </div>
+          <div class="slider-three__wrapper swiper-wrapper">
+            <div class="slider-three__slide swiper-slide">
+                <div class="vehicle-card" itemscope itemtype="http://schema.org/Product">
+                  <div>
+                    <div class="vehicle-card__img">
+                      <img src="images/content/vehicle-1.png" alt="Самосвал Камаз" itemprop="image">
+                    </div>
+                    <div class="vehicle-card__name fs-20 fw-600" itemprop="name">Самосвал Камаз</div>
+                    <div id="accordion" class="accordion">
+                      <div class="accordion__item">
+                        <div class="accordion__header d-sm-none">
+                          Характеристики
+                        </div>
+                        <div class="accordion__body">
+                          <div class="accordion__content">
+                            <div class="vehicle-card__spec">
+                              <div class="vehicle-card__spec-item" itemprop="description">
+                                <span class="fs-16">Грузоподъемность</span>
+                                <span class="color-orange fw-500">10 - 15т</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="vehicle-card__price mb-3 mb-sm-4" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                      <span class="me-3">Стоимость аренды</span>
+                      <div class="color-orange fs-20 fw-600" itemprop="price">от 2500 ₽/час</div>
+                    </div>
+                    <a href="https://wa.me/+79619778975" class="btn btn--md btn--orange w-100">Заказать технику</a>
+                  </div>
+                </div>
+            </div>
+            <div class="slider-three__slide swiper-slide">
+              <div class="vehicle-card" itemscope itemtype="http://schema.org/Product">
+                <div>
+                  <div class="vehicle-card__img" >
+                    <img src="images/content/vehicle-2.png" alt="Экскаватор-погрузчик Cat 428E" itemprop="image">
+                  </div>
+                  <div class="vehicle-card__name fs-20 fw-600" itemprop="name">Экскаватор-погрузчик Cat 428E</div>
+                  <div id="accordion" class="accordion">
+                    <div class="accordion__item">
+                      <div class="accordion__header d-sm-none">
+                        Характеристики
+                      </div>
+                      <div class="accordion__body">
+                        <div class="accordion__content">
+                          <div class="vehicle-card__spec" itemprop="description">
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Фронтальный ковш </span>
+                              <span class="color-orange fw-500">1 м<sup>3</sup></span>
+                            </div>
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Глубина копания </span>
+                              <span class="color-orange fw-500">4,2 метра</span>
+                            </div>
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Объем заднего ковша</span>
+                              <span class="color-orange fw-500">0,2 м<sup>3</sup></span>
+                            </div>
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Гидромолот</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="vehicle-card__price mb-3 mb-sm-4" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="me-3">Стоимость аренды</span>
+                    <div class="color-orange fs-20 fw-600" itemprop="price">от 2500 ₽/час</div>
+                  </div>
+                  <a href="https://wa.me/+79619778975" class="btn btn--md btn--orange w-100">Заказать технику</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider-three__slide swiper-slide">
+              <div class="vehicle-card" itemscope itemtype="http://schema.org/Product">
+                <div>
+                  <div class="vehicle-card__img">
+                    <img src="images/content/vehicle-3.png" alt="Автокран Ивановец 25т Вездеход" itemprop="image">
+                  </div>
+                  <div class="vehicle-card__name fs-20 fw-600" itemprop="name">Автокран Ивановец 25т Вездеход</div>
+                  <div id="accordion" class="accordion">
+                    <div class="accordion__item">
+                      <div class="accordion__header d-sm-none">
+                        Характеристики
+                      </div>
+                      <div class="accordion__body">
+                        <div class="accordion__content">
+                          <div class="vehicle-card__spec" itemprop="description">
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Грузоподъемность стрелы </span>
+                              <span class="color-orange fw-500">25т</span>
+                            </div>
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Вылет стрелы</span>
+                              <span class="color-orange fw-500">21 метр</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="vehicle-card__price mb-3 mb-sm-4" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="me-3">Стоимость аренды</span>
+                    <div class="color-orange fs-20 fw-600" itemprop="price">от 2500 ₽/час</div>
+                  </div>
+                  <a href="https://wa.me/+79619778975" class="btn btn--md btn--orange w-100">Заказать технику</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider-three__slide swiper-slide">
+              <div class="vehicle-card" itemscope itemtype="http://schema.org/Product">
+                <div>
+                  <div class="vehicle-card__img">
+                    <img src="images/content/vehicle-4.png" alt="Автокран XCMG 25т" itemprop="image">
+                  </div>
+                  <div class="vehicle-card__name fs-20 fw-600" itemprop="name">Автокран XCMG 25т </div>
+                  <div id="accordion" class="accordion">
+                    <div class="accordion__item">
+                      <div class="accordion__header d-sm-none">
+                        Характеристики
+                      </div>
+                      <div class="accordion__body">
+                        <div class="accordion__content">
+                          <div class="vehicle-card__spec" itemprop="description">
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Грузоподъемность стрелы </span>
+                              <span class="color-orange fw-500">25т</span>
+                            </div>
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Вылет стрелы</span>
+                              <span class="color-orange fw-500">39 метров</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="vehicle-card__price mb-3 mb-sm-4" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="me-3">Стоимость аренды</span>
+                    <div class="color-orange fs-20 fw-600" itemprop="price">от 2500 ₽/час</div>
+                  </div>
+                  <a href="https://wa.me/+79619778975" class="btn btn--md btn--orange w-100">Заказать технику</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider-three__slide swiper-slide">
+              <div class="vehicle-card" itemscope itemtype="http://schema.org/Product">
+                <div>
+                  <div class="vehicle-card__img">
+                    <img src="images/content/vehicle-5.png" alt="Полноповоротный экскаватор Hitachi 210" itemprop="image">
+                  </div>
+                  <div class="vehicle-card__name fs-20 fw-600" itemprop="name">Полноповоротный экскаватор Hitachi 210</div>
+                  <div id="accordion" class="accordion">
+                    <div class="accordion__item">
+                      <div class="accordion__header d-sm-none">
+                        Характеристики
+                      </div>
+                      <div class="accordion__body">
+                        <div class="accordion__content">
+                          <div class="vehicle-card__spec" itemprop="description">
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Объем ковша </span>
+                              <span class="color-orange fw-500">1м<sup>3</sup></span>
+                            </div>
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Гидромолот</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="vehicle-card__price mb-3 mb-sm-4" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="me-3">Стоимость аренды</span>
+                    <div class="color-orange fs-20 fw-600" itemprop="price">от 2500 ₽/час</div>
+                  </div>
+                  <a href="https://wa.me/+79619778975" class="btn btn--md btn--orange w-100">Заказать технику</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider-three__slide swiper-slide">
+              <div class="vehicle-card" itemscope itemtype="http://schema.org/Product">
+                <div>
+                  <div class="vehicle-card__img">
+                    <img src="images/content/vehicle-6.png" alt="Буроям" itemprop="image">
+                  </div>
+                  <div class="vehicle-card__name fs-20 fw-600" itemprop="name">Буроям</div>
+                  <div id="accordion" class="accordion">
+                    <div class="accordion__item">
+                      <div class="accordion__header d-sm-none">
+                        Характеристики
+                      </div>
+                      <div class="accordion__body">
+                        <div class="accordion__content">
+                          <div class="vehicle-card__spec" itemprop="description">
+                            <div class="vehicle-card__spec-item">
+                              <span class="fs-16">Диаметр бурения</span>
+                              <span class="color-orange fw-500">150мм - 800мм</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="vehicle-card__price mb-3 mb-sm-4" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="me-3">Стоимость аренды</span>
+                    <div class="color-orange fs-20 fw-600" itemprop="price">от 2500 ₽/час</div>
+                  </div>
+                  <a href="https://wa.me/+79619778975" class="btn btn--md btn--orange w-100">Заказать технику</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section benefits" id="benefits">
+      <div class="container">
+        <h2 class="h2 color-orange mb-4 mb-sm-5 wow animate__animated animate__fadeInUp">Преимущества</h2>
+        <div class="col-lg-6 mb-4 mb-sm-5 wow animate__animated animate__fadeIn animate__delay-06s">
+          <p>
+            Мы заботимся о вашем времени. Именно поэтому от вас нужно лишь сообщить нам о намерении работать с нами и
+            подписать договор о сотрудничестве. Все остальные вопросы мы возьмем на себя. Если нужна консультация
+            специалиста- мы всегда рады.
+          </p>
+        </div>
+        <div
+          class="row align-items-lg-center position-relative wow animate__animated animate__fadeIn animate__delay-06s">
+          <img class="benefits__bg" src="images/hook.png" alt="">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="benefits__item color-orange">
+              <span>
+                Оборудование проходит тех. осмотр и поэтому всегда исправно
+              </span>
+            </div>
+            <div class="benefits__item color-orange">
+              <span>
+                Поставка техники точно в оговоренные сроки
+              </span>
+            </div>
+            <div class="benefits__item color-orange">
+              <span>
+                Не требуется искать профессианалов или изучать детали самому
+              </span>
+            </div>
+          </div>
+          <div class="d-none d-lg-block col-lg-4">
+            <img class="benefits__img" src="images/hook.png" alt="">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="benefits__item right color-orange">
+              <span>
+                Нет затрат на обслуживание и ремонт спецтехники
+              </span>
+            </div>
+            <div class="benefits__item right color-orange">
+              <span>
+                Не нужно изучать правила и гос. нормативы
+              </span>
+            </div>
+            <div class="benefits__item right color-orange">
+              <span>
+                Отсутствуют затраты на доставку или хранение техники
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about"
+      style="background-image: linear-gradient(180deg, rgba(29, 29, 29, 0.9) 0%, rgba(29, 29, 29, 0.9) 12.74%, rgba(29, 29, 29, 0) 49.48%, rgba(29, 29, 29, 0.9) 85.04%, rgba(29, 29, 29, 0.9) 100%), url(images/asphalt-bg-1.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <h2 class="h2 color-orange mb-4 mb-sm-5 wow animate__animated animate__fadeInUp">О нас</h2>
+            <p class="wow animate__animated animate__fadeIn animate__delay-06s">
+              Наша компания более 5 лет оказывает услуги аренды спецтехники по Барнаулу и краю. Обновленный автопарк,
+              штат
+              профессианалов и ангары для хранения и обслуживания авто - то, благодаря чему нас знают.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-7">
+            <img class="wow animate__animated animate__fadeInRight animate__delay-06s"
+              src="images/content/vehicle-2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-map" id="contacts">
+      <div class="d-lg-none mb-4">
+        <div class="container">
+          <h2 class="h2 color-orange mb-4">Контакты</h2>
+          <div class="d-flex flex-wrap align-items-end">
+            <div class="me-5">
+              <div class="d-flex align-items-center contact-item mb-3">
+                <svg class="me-3">
+                  <use href="images/sprites.svg#location"></use>
+                </svg>
+                <span class="fs-16 color-white">г. Барнаул, ул Пушкина, 78</span>
+              </div>
+              <a href="tel:+79619778975" class="d-flex align-items-center contact-item mb-3 phone">
+                <svg class="me-3">
+                  <use href="images/sprites.svg#phone"></use>
+                </svg>
+                <span class="fs-16 color-white hover">+7 (961) 977-89-75</span>
+              </a>
+              <div class="d-flex align-items-center contact-item">
+                <svg class="me-3">
+                  <use href="images/sprites.svg#clock"></use>
+                </svg>
+                <span class="fs-16 color-white">Время работы: 08:00 - 17:00</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+              <a class="social-icon wa-icon me-2" target="_blank" href="https://wa.me/+79619778975">
+                <img src="images/whatsapp.svg" alt="">
+              </a>
+              <a class="social-icon" target="_blank" href="https://t.me/+79619778975">
+                <img src="images/telegram.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map-contacts d-none d-lg-block">
+        <h2 class="h2 color-orange mb-4">Контакты</h2>
+        <div class="mb-4">
+          <div class="d-flex align-items-center contact-item mb-3">
+            <svg class="me-3">
+              <use href="images/sprites.svg#location"></use>
+            </svg>
+            <span class="fs-16 color-white">г. Барнаул, ул Пушкина, 78</span>
+          </div>
+          <a href="tel:+79619778975" class="d-flex align-items-center contact-item mb-3 phone">
+            <svg class="me-3">
+              <use href="images/sprites.svg#phone"></use>
+            </svg>
+            <span class="fs-16 color-white hover">+7 (961) 977-89-75</span>
+          </a>
+          <div class="d-flex align-items-center contact-item">
+            <svg class="me-3">
+              <use href="images/sprites.svg#clock"></use>
+            </svg>
+            <span class="fs-16 color-white">Время работы: 08:00 - 17:00</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center">
+          <a class="social-icon wa-icon me-2" target="_blank" href="https://wa.me/+79619778975">
+            <img src="images/whatsapp.svg" alt="">
+          </a>
+          <a class="social-icon" target="_blank" href="https://t.me/+79619778975">
+            <img src="images/telegram.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe class="map-overlay"
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac7bcb84d0cc36bcf5363204f65c276adafb5d87acbcf931b0cb8c2d9a3ac689d&amp;source=constructor"
+          width="100%" height="100%" frameborder="0"></iframe>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-lg-3 mb-4 mb-md-0">
+          <a class="footer__logo logo d-block mb-3" href="#">
+            <img src="images/logo.png" alt="">
+          </a>
+          <p class="fs-15">Цены на сайте могут отличаться от действительных. Пожалуйста уточняйте стоимость по телефону.
+          </p>
+        </div>
+        <div class="col-md-3 offset-md-2 col-lg-4 offset-lg-1 mb-4 mb-md-0">
+          <nav class="footer__nav nav">
+            <a href="#services" class="hover noSelect d-block pt-2 pb-2">Услуги</a>
+            <a href="#vehicles" class="hover noSelect d-block pt-2 pb-2">Техника</a>
+            <a href="#benefits" class="hover noSelect d-block pt-2 pb-2">Преимущества</a>
+            <a href="#about" class="hover noSelect d-block pt-2 pb-2">О нас</a>
+            <a href="#contacts" class="hover noSelect d-block pt-2">Контакты</a>
+          </nav>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <a href="tel:+79619778975" class="phone d-flex align-items-center contact-item footer__phone mb-3">
+            <svg class="me-2">
+              <use href="images/sprites.svg#phone"></use>
+            </svg>
+            <span class="fs-20 fw-600 hover">+7 (961) 977-89-75</span>
+          </a>
+          <div class="d-flex align-items-center">
+            <a class="social-icon wa-icon me-2" href="https://wa.me/+79619778975">
+              <img src="images/whatsapp.svg" alt="">
+            </a>
+            <a class="social-icon" href="https://t.me/+79619778975">
+              <img src="images/telegram.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom d-flex flex-wrap align-items-center justify-content-between">
+        <span class="fs-15 mb-3 mb-sm-4 me-5">© 2022 ООО «ТЕХСТРОЙ»</span>
+        <a href="https://t.me/S_Plotnikov" target="_blank"
+          class="my-link fs-16 hover mb-3 mb-sm-4 d-flex align-items-center">
+          <span>Разработка сайта @S_Plotnikov</span>
+          <div class="link-telegram ms-2">
+            <svg class="link-telegram__icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M23.7853 9.20387L20.9275 23.6122C20.9275 23.6122 20.5279 24.6115 19.4288 24.1319L12.834 19.0759L10.436 17.9169L6.39929 16.5579C6.39929 16.5579 5.77979 16.3381 5.71979 15.8585C5.65992 15.3789 6.41929 15.1191 6.41929 15.1191L22.4663 8.82412C22.4663 8.82412 23.7853 8.24462 23.7853 9.20387Z"
+                fill="white" />
+              <path
+                d="M12.3272 23.4505C12.3272 23.4505 12.1347 23.4325 11.8948 22.673C11.6551 21.9136 10.4361 17.9168 10.4361 17.9168L20.1282 11.7618C20.1282 11.7618 20.6878 11.4221 20.6678 11.7618C20.6678 11.7618 20.7677 11.8217 20.468 12.1015C20.1682 12.3813 12.8541 18.956 12.8541 18.956"
+                fill="#D2E5F1" />
+              <path d="M15.3627 21.0145L12.7542 23.3927C12.7542 23.3927 12.5503 23.5475 12.3272 23.4505L12.8267 19.0328"
+                fill="#B5CFE4" />
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- <script src="js/main.min.js"></script> -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
